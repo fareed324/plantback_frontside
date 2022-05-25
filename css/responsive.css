@@ -1,0 +1,182 @@
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 993px)
+{
+    .main_header {
+        background: #000;
+    }
+    .logo {
+        width: 190px;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        /* vertical-align: middle; */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    input#search-bar {
+        margin: 0 auto;
+        width: 100%;
+        height: 45px;
+        padding: 0 20px;
+        font-size: 11px;
+        border: 1px solid #D0CFCE;
+        outline: none;
+    }
+/* -------------------how-to-work-------------------------- */
+    .work-content::after {
+        content: '';
+        background-image: url(../images/shap.png);
+        background-size: contain;
+        position: absolute;
+        height: 50px;
+        width: 265px;
+        background-repeat: no-repeat;
+        left: 301px;
+        bottom: 4px;
+        z-index: -1;
+        transform: rotate(11deg);
+    }
+    .sec-one img {
+        width: 90px;
+    }
+    .work-detail-three {
+        position: relative;
+        margin-top: 5px;
+    }
+    .work-content2::after {
+        content: '';
+        background-image: url(../images/shap1.png);
+        background-size: contain;
+        position: absolute;
+        height: 156px;
+        width: 129px;
+        background-repeat: no-repeat;
+        left: 69px;
+        bottom: 139px;
+        z-index: -1;
+        transform: rotate(357deg);
+    }
+    .work-content2 .content {
+        font-size: 13px;
+        margin-top: 10px;
+        padding-right: 26px;
+    }
+    .work-detail-four {
+        margin-top: 164px !important;
+    }
+    .work-content3::after {
+        content: '';
+        background-image: url(../images/shap2.png);
+        background-size: contain;
+        position: absolute;
+        height: 111px;
+        width: 129px;
+        background-repeat: no-repeat;
+        bottom: 1px;
+        z-index: -1;
+        right: 369px;
+        transform: rotate(11deg);
+    }
+/* ----------------------single-page------------------------ */
+    .tree-content {
+        margin-right: 0px !important;
+    }
+/* -------------------cart----------------------------- */
+    .shopping-cart {
+        border-right: none;
+        padding: 0;
+    }
+/* ------------------check-out----------------------------- */
+.sub-totle-info {
+    padding: 0;
+}
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    
+    .navbar .navbar-expand-lg {
+        display: none;
+    }
+    .main_header {
+        background: #000;
+        height: 27%;
+    }
+/* --------------partner-info--------------------- */
+  .view-text {
+      text-align: center !important;
+  }
+  .view-btn {
+      text-align: center !important;
+      margin-top: 23px;
+  }
+/* ----------------partner-name------------------- */
+    .work-content::after {
+        display: none;
+    }
+    .work-content2::after {
+        display: none;
+    }
+    .work-content3::after {
+        display: none;
+    }
+    .work-detail-two {
+        margin-top: 10px !important;
+    }
+    .work-detail-four {
+        margin-top: 28px !important;
+    }
+/* -----------user-profile-------------------------- */
+.rounded img {
+    width: 187px;
+}
+/* --------------------footer------------------------- */
+.ftr-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ftr-img img {
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+    width: 220px;
+}
+.ftr-txt {
+    text-align:center!important;
+}
+.ftr-txt ul {
+    justify-content: center !important;
+   margin: 9px 0;
+}
+/*----------------footer-end-------------------------*/
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 576px) {
+    .work-content::after {
+        display: none;
+    }
+    .work-content2::after {
+        display: none;
+    }
+    .work-content3::after {
+        display: none;
+    }
+    .work-detail-one, .work-detail-two, .work-detail-three, .work-detail-four {
+        margin-top: 20px !important;
+        justify-content: left;
+    }
+    .help {
+        font-size: 18px;
+    }
+
+}
